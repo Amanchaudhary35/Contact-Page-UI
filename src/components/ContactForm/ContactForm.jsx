@@ -4,6 +4,8 @@ import Button from "../Button/button";
 import { RiMessage2Fill } from "react-icons/ri";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Contact from '../../../public/images/contact.png'
+
 
 const ContactForm = () => {
 const[name,setName]= useState("name")
@@ -72,7 +74,7 @@ const[text,setText]= useState("text")
         </form>
       </div>
       <div className={styles.contact_image}>
-        <img src="/images/contact.png" alt="contact image" />
+        <img src={Contact} alt="contact image" />
       </div>
     </section>
   );

@@ -1,11 +1,12 @@
 import React from 'react'
 import './Navigation.css'
+import LogoImg from '../../public/images/logo.png'
 
 const Navigation = () => {
   return (
     <nav className='container'>
     <div className='logo'>
-      <img src="/images/logo.png" alt="do some coding" />
+      <img src={LogoImg} alt="do some coding" />
     </div>
 
     <ul>
